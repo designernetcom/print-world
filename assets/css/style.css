@@ -580,31 +580,31 @@ ol ul {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   h2 {
-    font-size: 44px;
+    font-size: 36px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   h2 {
-    font-size: 36px;
-    line-height: 56px;
+    font-size: 34px;
+    line-height: 48px;
   }
 }
 @media only screen and (max-width: 767px) {
   h2 {
-    font-size: 30px;
+    font-size: 35px;
     line-height: 45px;
   }
 }
 @media only screen and (max-width: 575px) {
   h2 {
-    font-size: 26px;
+    font-size: 30px;
     line-height: 36px;
   }
 }
 @media only screen and (max-width: 479px) {
   h2 {
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 28px;
+    line-height: 35px;
   }
 }
 
@@ -16865,14 +16865,15 @@ body.home-eleven #menu-btn:hover {
   padding-left: 0;
 }
 .social-wrapper-two a {
-  margin-right: 40px;
+  margin-right: 20px;
   z-index: 1;
   position: relative;
 }
 .social-wrapper-two a i {
   color: #fff;
+  padding: 10px;
   transition: 0.3s;
-  font-size: 16px;
+  font-size: 16px;  
 }
 .social-wrapper-two a::after {
   position: absolute;
@@ -16881,6 +16882,7 @@ body.home-eleven #menu-btn:hover {
   border-radius: 50%;
   content: "";
   z-index: -1;
+  display: none;
   background: var(--color-primary);
   top: 50%;
   left: 50%;
@@ -17759,7 +17761,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
 }
 
 .quote-btnmenu {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 @media only screen and (min-width: 575px) {
   .quote-btnmenu {
@@ -20326,6 +20328,7 @@ header.header-home-nine {
 
 .about-three-thumbnail-left {
   position: relative;
+  margin-top: 20px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-three-thumbnail-left img {
@@ -24391,7 +24394,7 @@ header.header-home-nine {
 }
 .single-counter .counter-details .title span::after {
   position: absolute;
-  right: -30px;
+  right: -25px;
   top: 50%;
   transform: translateY(-50%);
   content: "+";
@@ -24741,7 +24744,7 @@ header.header-home-nine {
 @media only screen and (max-width: 479px) {
   .tab-button-area-one .nav li button {
     padding: 10px 20px;
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 .tab-button-area-one .nav li button.active {
@@ -32934,3 +32937,46 @@ justify-content: flex-end;
 }
 
 }
+
+
+.as-social .facebook i {
+	background-color: #3e68c1;
+	/* padding: 5px 8px; */
+  }
+ .as-social .whatsapp i {
+	background-color: #1fbf1f;
+	/* padding: 5px 8px; */
+  }
+ .as-social .linkedin i {
+	background-color: #0a66c2;
+	/* padding: 5px 8px; */
+  }
+ .as-social .instagram i {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  /* padding: 8px 2px; */
+  }
+.as-social .facebook:hover {
+	background-color: #fff;
+  }
+.as-social .facebook:hover i {
+	color: #3e68c1;
+  }
+   
+ .as-social .whatsapp:hover {
+	background-color: #fff;
+  }
+   .as-social .whatsapp:hover i {
+   color: #1fbf1f;
+  }
+   .as-social  .linkedin:hover {
+	background-color: #fff;
+  }
+ .as-social .linkedin:hover i {
+	color: #0a66c2;
+  }
+ .as-social .instagram:hover{
+	background: #fff;
+  }
+   .as-social .instagram:hover i {
+	color: #d6249f;
+  }
