@@ -20692,7 +20692,7 @@ header.header-home-nine {
 }
 @media only screen and (max-width: 767px) {
   .contoler-company .tab-content {
-    margin-top: 30px;
+    margin-top: 20px;
   }
 }
 
@@ -20851,15 +20851,43 @@ header.header-home-nine {
 }
 @media only screen and (max-width: 767px) {
   .about-company-thumbnail::after {
-    height: 391.43px;
-    min-width: 712px;
+    height: 330.43px;
+    min-width: 454px;
   }
+  .rts-tab-style-one .button-area button {
+    background: #FFFFFF;
+    color: #1C2539;
+    margin: 0px 10px;
+    padding: 16px 40px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 9px 18px rgba(24, 16, 16, 0.10);
+    border-radius: 15px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.nav-pills {
+  display: flex;
+  flex-direction: row !important;
+  flex-wrap: nowrap;
+}
+.rts-tab-style-one .button-area button:last-child {
+  /* border-bottom: none; */
+  margin-bottom: auto;
+  /* padding-bottom: 0; */
+}
 }
 @media only screen and (max-width: 479px) {
   .about-company-thumbnail::after {
     height: 100%;
     min-width: 708px;
   }
+  .about-company-thumbnail {
+    position: relative;
+    z-index: 1;
+    width: auto;
+}
 }
 .about-company-thumbnail img {
   margin-left: 40px;
