@@ -20432,7 +20432,7 @@ header.header-home-nine {
 @media only screen and (max-width: 767px) {
   .about-right-three .title-area-about-three .title {
     font-size: 36px;
-    line-height: 55px;
+    line-height: 42px;
   }
 }
 @media only screen and (max-width: 479px) {
@@ -33189,5 +33189,15 @@ justify-content: flex-end;
   .service-detials-step-1 .thumbnail img {
 
     border: 3px solid #004687;
-
   }
+  .bod-img {
+    border: 5px solid #004687;
+  }
+
+  @media (max-width: 991px) {
+    .home-r {
+      flex-direction: column-reverse;
+      }
+    
+    }
+    
