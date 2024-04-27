@@ -18738,6 +18738,14 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
   background-image: url(../images/banner/p3.png);
   padding-top: 600px;
 }
+.bg_banner-three.eight {
+  background-image: url(../images/banner/p4.png);
+  padding-top: 600px;
+}
+.bg_banner-three.eight-2 {
+  background-image: url(../images/banner/p5.png);
+  padding-top: 600px;
+}
 
 @media (max-width: 1400px) {
 
